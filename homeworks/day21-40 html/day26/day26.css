@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(128, 128, 128, 0.097);
+}
+#github {
+    background-image: url(/homeworks/day26/github.png); /* Replace 'your-image.jpg' with the actual path to your image */
+    background-size: cover;
+    width: 100px; /* Set the width of the button */
+    height: 100px; /* Set the height of the button */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#facebook {
+    background-image: url(/homeworks/day26/facebook.png); /* Replace 'your-image.jpg' with the actual path to your image */
+    background-size: cover;
+    width: 100px; /* Set the width of the button */
+    height: 100px; /* Set the height of the button */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#bio {
+    text-align: center;
+
+}
+#pinfo{
+    text-align: center;
+}
+#skills {
+    text-align: center;
+}
+div i{
+    color:rgb(0, 117, 128)
+}
+#title {
+    color: rgb(0, 255, 13);
+}
+div p{
+    color: darkgoldenrod;
+}
