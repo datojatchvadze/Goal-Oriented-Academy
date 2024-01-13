@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(55, 54, 54);
+}
+img {
+    margin: 30px;
+    width: 150px;
+    max-height:200px;
+    border-radius: 20%;
+}
+footer {
+    text-align: center;
+    margin:10px;
+}
+#links {
+    margin:30px;
+    float:right;
+}
+#enterPage2 {
+    text-align: center;
+}
+input,label {
+    margin:10px;
+}
+ul,p,a {
+    color: rgb(25, 193, 81);
+}
+h1,h2,h3 {
+    color:red;
+}
+.login {
+    float:right;
+}
+#submitbtn {
+    font-size: large;
+    border-radius: 10%;
+   
+}
+#inputLabel {
+    color:rgb(25, 193, 81);
+}
+
+
+
+
+

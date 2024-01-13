@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./day51.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>choose the best one!</h2>
+        <a href="./day51main.html" id="links">main page</a>
+    </header>
+    <main>
+        <div> <!--advertising-->
+            <h2>production is on sale,and each shown boots costs 100$</h2>
+            <h2>just click the image and money will add up below</h2>
+            <hr color="blue">
+        </div>
+        <form>
+            <label for="number" id="inputLabel">input amount of money you want to withdraw</label>
+            <input type="number" id="num">
+        </form>
+        <center><button type="button" id="submitbtn">submit</button></center>
+
+
+        <div id="images"> <!--images that shows shoes on sale-->
+            <img src="./brands/1.jpg" class = "bought">
+            <img src="./brands/2.jpg" class = "bought">
+            <img src="./brands/3.jpg" class = "bought">
+            <img src="./brands/4.jpg" class = "bought">
+            <img src="./brands/5.jpg" class = "bought">
+            <img src="./brands/6.jpg" class = "bought">
+            <img src="./brands/7.jpg" class = "bought">
+            <img src="./brands/8.jpg" class = "bought">
+            <img src="./brands/9.jpg" class = "bought">  
+            <img src="./brands/10.jpg" class = "bought">
+            <img src="./brands/11.jpg" class = "bought">
+            <img src="./brands/12.jpg" class = "bought">
+            <hr color="blue">    
+        </div>
+    </main>
+    <footer> <!--total amount of spent money-->
+        <p>your balance:</p>
+        <i id="balance">0</i>
+        <p>your total dollars spent:</p>
+        <i id="spent">0</i>
+        <p>done shopping?click here to proceed payment!</p>
+        <button type="button" id="reset">reset</button>
+        <button type="button" id="finish">done!</button>
+    </footer>
+    <script src="./day51.js"></script>
+    
+</body>
+</html>
