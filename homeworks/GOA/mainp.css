@@ -1,0 +1,95 @@
+body {
+    background-color:#131516;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    display:inline;
+    color:rgb(0, 255, 0)
+}
+
+a {
+    float:right;
+    margin:10px;
+    font-size:large;
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+}
+#introduction {
+    text-align: center;
+    color:#20f780;
+    
+}
+a:hover {
+    color:red;
+    transition-duration: 750ms;
+    font-size:larger;
+}
+img {
+    border-radius: 30%;
+    margin:10px;
+    float:left;
+    
+}
+h3 {
+    margin-left:25px;
+    color:rgb(0, 255, 0);
+}
+.nikaAchievements {
+    margin: 10px;
+    color: #20f780;
+    font-size: large;
+}
+.nikaAchievements:hover {
+    transition-duration: 500ms;
+    color:rgb(0, 255, 0);
+    font-size: larger;
+}
+#vid1 {
+    width:45%;
+    float:left;
+}
+#vid2 {
+    width:45%;
+    float:right;
+}
+#courses {
+    color:rgb(0, 255, 0);
+    display:inline;
+    float:left;
+    margin:10px;
+
+}
+footer {
+    float:right;
+    margin-right:15px;
+    margin-top:5px;
+}
+#btn {
+    margin-right:70px;
+    font-size:medium;
+    color:rgb(0, 255, 0);
+    background-color: rgb(41, 34, 34);
+}
+#btn:hover {
+    transition-duration: 250ms;
+    font-size: larger;
+    color:red;
+}
+
+label,input {
+    margin:15px;
+    color:#20f780;
+}
+
+#loginp2 {
+    float:right;
+}
+#aboutUs {
+    text-align:center;
+}
+#fblogo {
+    margin-right:100px;
+    width:40%;
+    border-radius:50%
+}
