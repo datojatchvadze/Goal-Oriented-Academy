@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainPage {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:400px;
+    height:500px;
+    background-color: gray;
+}
+input {
+    margin:10px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius:5px;
+}
+input:hover {
+    border-color: red;
+}
+#btn {
+    width:100px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid black;
+}
+#btn:hover {
+    cursor:pointer;
+    border-color:red;
+}
+
