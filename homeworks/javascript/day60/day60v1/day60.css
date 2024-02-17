@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(30, 18%, 87%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainBox {
+    background-color: aliceblue;
+    width:440px;
+    height:1600px;
+    display:flex;
+    flex-direction: column;
+}
+header {
+    margin:10px;
+}
+#prepTime {
+    margin-bottom:50px;
+    margin-left:50px;
+    width:330px;
+    background-color:hsl(30, 18%, 87%);
+}
+#preperation {
+    padding:16px;
+}
+h1 {
+    margin: 0px 0px 0px 10px;
+}
+p {
+    margin: 15px;
+}
+img {
+    width:400px;
+    height:200px;
+    margin: 20px 20px 0px 20px;
+}
+h3 {
+    color:hsl(332, 51%, 32%);
+    padding:0px;
+}
+h2 {
+    color:hsl(14, 45%, 36%);
+    margin-left:25px;
+}
+#ingredients {
+    margin-bottom:50px;
+}
+#nutrition {
+    margin-top:30px;
+}
+#calories {
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:40px;
+}
+#carbs {
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:40px;
+}
+#protein {
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:40px;
+}
+#fat {
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:40px;
+}
+.amount {
+    color:hsl(14, 45%, 36%);
+}
