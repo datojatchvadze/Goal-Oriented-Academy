@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+}
+.container{
+    width: 100%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.child-container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid grey;
+}
